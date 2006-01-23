@@ -1,0 +1,50 @@
+INFORMATION
+===================================================
+This software was created basicly for polish users to print
+money transfer forms. However it can be used as an example
+for create similar projects. 
+I can modify e-Przelewy for other country specyfic if
+someone would be interested to give me information about
+this.
+
+REQUIRMENTS
+===================================================
+Qt >= 3.3
+
+COMPILE/INSTALL
+===================================================
+Download from:
+http://www.e-linux.pl/modules/e-przelewy/eprzelewy-1.0.tar.gz
+after that:
+1. unpack:
+	tar -zxf eprzelewy-1.0.tar.gz
+2. get into eprzelewy directory
+	cd eprzelewy
+3. generate Makefile script by running
+	qmake
+4. compile program
+	make
+5. install it by running install.sh script (need root permission)
+	sudo install.sh
+
+
+ATTENTION!!
+===================================================
+After installation software is ready to run but not ready to use.
+First thing we must to after running program is configure it.
+We must configure position of every field which be puted on
+forms. 
+
+This solution was made because is many differentes between
+every Linux distribution ie. fonts, sizes and others.
+
+
+CONTACT
+===================================================
+Project homepage: http://www.e-linux.pl
+Grzegorz Rêkawek 	info@e-linux.pl
+Tomasz Pielech 	iqmoux@users.sourceforge.net
+
+
+Have a nice day
+

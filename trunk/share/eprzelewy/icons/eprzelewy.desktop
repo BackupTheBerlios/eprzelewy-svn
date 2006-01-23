@@ -1,0 +1,18 @@
+[Desktop Entry]
+Version=1.1
+Encoding=UTF-8
+Name=e-Przelewy
+Type=Application
+Categories=Application;Office
+Exec=/usr/bin/eprzelewy
+TryExec=
+X-GNOME-DocPath=
+Terminal=false
+Name[pl_PL]=e-Przelewy
+GenericName[pl_PL]=
+Comment[pl_PL]=System do drukowania przelewow
+Icon=/usr/share/eprzelewy/icons/eprzelewy_64.png
+MapNotify=true
+MimeType=application/x-assistant
+Terminal=false
+

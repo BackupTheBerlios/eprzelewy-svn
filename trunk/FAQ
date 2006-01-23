@@ -1,0 +1,28 @@
+e-Przelewy - FAQ
+
+1. Znalaz³em b³±d co mam zrobiæ?
+
+Je¶li znalaz³e¶ b³±d w programie e-Przelewy lub masz pomys³ na usprawnienie pracy 
+z programem koniecznie daj nam znaæ. Informacje te prze¶lij na adres 
+info (at) e-linux (dot) pl.
+
+
+2. Jak zrobiæ kopie zapasow± historii przelewów oraz kontrahentów?
+
+Plik z danymi kontrahentów jak i pliki przelewów mieszcza siê w katalogu ~/elinux 
+(gdzie ~ odpowiada za katalog domowy u¿ytkownika, który akurat korzysta z programu). 
+Wystrczy zrobiæ kopiê tego katalogu.
+
+3. Jak wydrukowaæ przelew dla firmy/instytucji o bardzo d³ugiej nazwie (takiej, która 
+nie mie¶ci siê normalnie na przelewie)?
+
+Mo¿na to wykonaæ, wpisuj±c czê¶æ nazwy w polu "nazwa", a pozosta³± czê¶æ kolejnych 
+polach. Bêdzie to mniej wiecej wygladalo tak:
+Pole "Nazwa":
+
+    Pañstwowo-Prywatna Wy¿sza Niepubliczna Szkola Zarz±dzania i Marketingu
+
+Pole "Miasto:"
+
+    w Poznaniu Odzial Zamiejscowy w Brzegu dolnym ul. Bobki 5 65-123 Leszno 
+

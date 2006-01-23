@@ -1,0 +1,55 @@
+INFORMACJE
+===================================================
+System e-Przelewy zosta³ przygotowany z my¶l± o tych u¿ytkownikach, którzy chc± 
+korzystaæ z Linuksa w codziennej pracy zawodowej. Jest to wszechstronny program, 
+pracuj±cy w trybie graficznym (okienkowym np. KDE, GNOME, fluxbox). Daje on 
+mo¿liwo¶æ prostej obs³ugi wszelkiego rodzaju przelewów. Obs³uguje: przelewy zwykle, 
+wp³aty, przelewy na ZUS, wp³aty podatku dla Urzêdu Skarbowego (US). Mo¿liwe jest 
+tak¿e wykonywanie nadruków na oryginalnych drukach z poczty, banku lub urzêdu. 
+Wbudowana w program baza kontrahentów sprawia, ¿e dokonanie przelewu na dowolne 
+konto, czy to do ZUS, US jest w zasiêgu kilku ruchów mysz±. Równie prosta jest obs³uga 
+przelewów, które wykonujemy cyklicznie np. wp³aty ZUS, wystarczy wówczas otworzyæ z 
+historii przelew z zesz³ego miesi±ca i jedynie zmieniæ kwot± lub tytu³. 
+
+WYMAGANIA
+===================================================
+Aby by³o mo¿liwe skompilowanie programu niezbêdna jest biblioteka Qt w wersji 
+minimum 3.3 lub wy¿szej.
+
+KOMPILACJA
+===================================================
+Po sci±gniêciu ze strony:
+http://www.e-linux.pl/modules/e-przelewy/eprzelewy-1.0.tar.gz
+nale¿y 
+1. rozpakowaæ plik poleceniem:
+	tar -zxf eprzelewy-1.0.tar.gz
+2. wej¶æ do katalogu eprzelewy
+	cd eprzelewy
+3. u¿yæ programu qmake do wygenerowania skryptu kompilacji
+	qmake
+4. skompilowaæ program
+	make
+5. zainstalowaæ przy pomocy skryptu install.sh uruchomionego na prawach root'a
+	sudo install.sh
+
+
+UWAGA!!
+===================================================
+Po skompilowaniu program jest gotowy do uruchomienia, jednak nie jest jeszcze gotowy
+do pracy. Aby by³ gotowy do pracy konieczne jest jego skonfigurowanie. Zastosowanie
+takie jest spowodowane tym, i¿ w ró¿nych dytrybucjach stosowane s± rózne czcionki
+o ró¿nych szeroko¶ciach, jak równie¿ inne czynniki powoduj±, ¿e ka¿dy system powinien
+mieæ osobn± konfiguracjê wydruku. 
+
+Konfiguracja jest stosunkowo prosta i polega na podaniu wszystkich wspolrzednych 
+pol, które bêda siê pojawiaæ na wydrukach.
+
+
+KONTAKT
+===================================================
+Strona macierzysta projektu: http://www.e-linux.pl
+Grzegorz Rêkawek 	info@e-linux.pl
+Tomasz Pielech 	iqmoux@users.sourceforge.net
+
+
+Milego dnia

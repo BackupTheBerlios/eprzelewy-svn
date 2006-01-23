@@ -1,0 +1,780 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>pZUS</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>pZUS</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>453</width>
+            <height>613</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Drukuj przelew (ZUS)</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QGroupBox" row="0" column="0">
+            <property name="name">
+                <cstring>groupBox4</cstring>
+            </property>
+            <property name="title">
+                <string>Dane ZUS: </string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="1" column="0">
+                    <property name="name">
+                        <cstring>layout18_2</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel5</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Nr konta ZUS:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>accountEdit2</cstring>
+                            </property>
+                            <property name="inputMask">
+                                <string>99-9999-9999-9999-9999-9999-9999; </string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="0" column="0">
+                    <property name="name">
+                        <cstring>layout18</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Typ wpłaty:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>Ubezpieczenie społeczne</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>Ubezpieczenie zdrowotne</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>FP i FGŚP</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>zusType</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="1" column="0">
+            <property name="name">
+                <cstring>groupBox1</cstring>
+            </property>
+            <property name="title">
+                <string>Kwota: </string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="0">
+                    <property name="name">
+                        <cstring>layout24</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel3_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Kwota:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout22</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QLineEdit">
+                                    <property name="name">
+                                        <cstring>kwotaEdit</cstring>
+                                    </property>
+                                    <property name="text">
+                                        <string>,</string>
+                                    </property>
+                                    <property name="alignment">
+                                        <set>AlignRight</set>
+                                    </property>
+                                    <property name="inputMask">
+                                        <string>999999,99; </string>
+                                    </property>
+                                </widget>
+                                <widget class="QPushButton">
+                                    <property name="name">
+                                        <cstring>slownieButton</cstring>
+                                    </property>
+                                    <property name="focusPolicy">
+                                        <enum>NoFocus</enum>
+                                    </property>
+                                    <property name="text">
+                                        <string>&amp;słownie</string>
+                                    </property>
+                                    <property name="accel">
+                                        <string>Alt+S</string>
+                                    </property>
+                                </widget>
+                            </hbox>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="0" column="1">
+                    <property name="name">
+                        <cstring>layout23</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel6</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Typ:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>Przelew</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>Wpłata</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>comboBox1</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="1" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>layout131</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel4_3</cstring>
+                            </property>
+                            <property name="maximumSize">
+                                <size>
+                                    <width>60</width>
+                                    <height>32767</height>
+                                </size>
+                            </property>
+                            <property name="text">
+                                <string>Słownie:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>slownieLbl</cstring>
+                            </property>
+                            <property name="readOnly">
+                                <bool>true</bool>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QLayoutWidget" row="4" column="0">
+            <property name="name">
+                <cstring>layout18</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer2</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>108</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>ppriviewButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Po&amp;dgląd</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+D</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>okButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>D&amp;rukuj</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+R</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>cancelButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Can&amp;cel</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+C</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QGroupBox" row="2" column="0">
+            <property name="name">
+                <cstring>groupBox2</cstring>
+            </property>
+            <property name="title">
+                <string>Dane zleceniodawcy: </string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="1" column="0">
+                    <property name="name">
+                        <cstring>layout14</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel3_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Miasto:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>placeEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="0" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>layout19</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel1_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Nazwa:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>nameEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="1" column="1" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>layout15</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel4_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Kod:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>codeEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="2" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>layout20</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Adres:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>addressEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="3" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>layout21</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel5_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Nr konta:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>accountEdit</cstring>
+                            </property>
+                            <property name="inputMask">
+                                <string>99-9999-9999-9999-9999-9999-9999; </string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="4" column="0" rowspan="1" colspan="3">
+                    <property name="name">
+                        <cstring>layout23</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>NIP:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>nipEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="5" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>layout24</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Typ 2 Id:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>NUSP</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>REGON</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>PESEL</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>Dowód osobisty</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>Paszport</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>secIdType</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="5" column="2">
+                    <property name="name">
+                        <cstring>layout25</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Drugi Id:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>regonEdit</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+        <widget class="QGroupBox" row="3" column="0">
+            <property name="name">
+                <cstring>groupBox5</cstring>
+            </property>
+            <property name="title">
+                <string>Tytuł: </string>
+            </property>
+            <grid>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget" row="0" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>layout29</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Typ wpłaty:</string>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>S - składka za 1 m-c</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>M - składka dłuższa niz m-c</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>U - układ ratalny</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>T - odroczenie terminu</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>D - dodatkowa opłata</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>E - koszty egzekucyjne</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>A - opłata za błędy</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>typwp</cstring>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="1" column="0">
+                    <property name="name">
+                        <cstring>layout26</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Numer deklaracji:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>nrdek</cstring>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="1" column="1">
+                    <property name="name">
+                        <cstring>layout26_2</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Deklaracja:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>dek</cstring>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="QLayoutWidget" row="2" column="0" rowspan="1" colspan="2">
+                    <property name="name">
+                        <cstring>layout26_3</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Numer decyzji:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>nrdec</cstring>
+                            </property>
+                            <property name="text">
+                                <string></string>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+            </grid>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>cancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>pZUS</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>slownieButton</sender>
+        <signal>clicked()</signal>
+        <receiver>pZUS</receiver>
+        <slot>slownieBtnClick()</slot>
+    </connection>
+    <connection>
+        <sender>kwotaEdit</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>pZUS</receiver>
+        <slot>kwotaKeyDown()</slot>
+    </connection>
+    <connection>
+        <sender>okButton</sender>
+        <signal>clicked()</signal>
+        <receiver>pZUS</receiver>
+        <slot>print_dlg()</slot>
+    </connection>
+    <connection>
+        <sender>comboBox1</sender>
+        <signal>activated(int)</signal>
+        <receiver>pZUS</receiver>
+        <slot>makeWplata()</slot>
+    </connection>
+    <connection>
+        <sender>ppriviewButton</sender>
+        <signal>clicked()</signal>
+        <receiver>pZUS</receiver>
+        <slot>ppriview()</slot>
+    </connection>
+    <connection>
+        <sender>zusType</sender>
+        <signal>activated(const QString&amp;)</signal>
+        <receiver>pZUS</receiver>
+        <slot>zusChanged(const QString&amp;)</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>zusType</tabstop>
+    <tabstop>accountEdit2</tabstop>
+    <tabstop>kwotaEdit</tabstop>
+    <tabstop>comboBox1</tabstop>
+    <tabstop>nameEdit</tabstop>
+    <tabstop>placeEdit</tabstop>
+    <tabstop>codeEdit</tabstop>
+    <tabstop>addressEdit</tabstop>
+    <tabstop>accountEdit</tabstop>
+    <tabstop>nipEdit</tabstop>
+    <tabstop>regonEdit</tabstop>
+    <tabstop>typwp</tabstop>
+    <tabstop>nrdek</tabstop>
+    <tabstop>dek</tabstop>
+    <tabstop>nrdec</tabstop>
+    <tabstop>ppriviewButton</tabstop>
+    <tabstop>okButton</tabstop>
+    <tabstop>cancelButton</tabstop>
+    <tabstop>slownieButton</tabstop>
+    <tabstop>secIdType</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">zus.ui.h</include>
+</includes>
+<variables>
+    <variable>int rozSp;</variable>
+    <variable access="private">QStringList z_id;</variable>
+    <variable>QString progDir2;</variable>
+    <variable access="private">QStringList z_dek;</variable>
+    <variable access="private">QStringList z_konto;</variable>
+    <variable access="private">QStringList z_ksw;</variable>
+    <variable access="private">QStringList z_kwota;</variable>
+    <variable access="private">QStringList z_nazwa1;</variable>
+    <variable access="private">QStringList z_nazwa2;</variable>
+    <variable access="private">QStringList z_nip;</variable>
+    <variable access="private">QStringList z_nrdec;</variable>
+    <variable access="private">QStringList z_nrdek;</variable>
+    <variable access="private">QStringList z_typid;</variable>
+    <variable access="private">QStringList z_typwp;</variable>
+    <variable access="public">QString fileName;</variable>
+    <variable access="private">QFont font;</variable>
+    <variable access="private">int pages;</variable>
+    <variable access="private">bool poziom;</variable>
+    <variable>bool own;</variable>
+    <variable access="public">QString ret;</variable>
+</variables>
+<slots>
+    <slot>readData()</slot>
+    <slot>slownieBtnClick()</slot>
+    <slot>kwotaKeyDown()</slot>
+    <slot>makeWplata()</slot>
+    <slot>readSettings()</slot>
+    <slot>saveXML()</slot>
+    <slot>print_dlg()</slot>
+    <slot>ppriview()</slot>
+    <slot>zusChanged( const QString &amp; text )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="QString">rozstrzel( QString in )</function>
+    <function returnType="int">getXSett( QString in )</function>
+    <function returnType="int">getYSett( QString in )</function>
+    <function returnType="QPixmap">getPrzelew()</function>
+    <function>newFunction()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

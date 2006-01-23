@@ -1,0 +1,6 @@
+Changelog e-Przelewy
+
+wersja 1.0.1 - 14-12-2005
+ - poprawiony sposob zapisywania przelewow
+ - usunieto problem z odswiezaniem listy przelewow jak i kontrahentow
+ - poprawiono blad przy usuwaniu przelewow 

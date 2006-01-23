@@ -1,0 +1,371 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>Form2</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>Form2</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>413</width>
+            <height>333</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Dane firmy</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="0" column="0">
+            <property name="name">
+                <cstring>layout162</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout161</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel1_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Numer firmy:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel1</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Nazwa:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel3</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Miejscowość:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel4</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Kod:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Adres:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel5</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Nr konta:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>NIP:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Typ 2 Id:</string>
+                            </property>
+                        </widget>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>textLabel2_2_2</cstring>
+                            </property>
+                            <property name="text">
+                                <string>Drugi Id:</string>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout160</cstring>
+                    </property>
+                    <vbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLayoutWidget">
+                            <property name="name">
+                                <cstring>layout159</cstring>
+                            </property>
+                            <hbox>
+                                <property name="name">
+                                    <cstring>unnamed</cstring>
+                                </property>
+                                <widget class="QSpinBox">
+                                    <property name="name">
+                                        <cstring>spinCNr</cstring>
+                                    </property>
+                                    <property name="maxValue">
+                                        <number>6</number>
+                                    </property>
+                                    <property name="minValue">
+                                        <number>1</number>
+                                    </property>
+                                    <property name="value">
+                                        <number>1</number>
+                                    </property>
+                                </widget>
+                                <spacer>
+                                    <property name="name">
+                                        <cstring>spacer52</cstring>
+                                    </property>
+                                    <property name="orientation">
+                                        <enum>Horizontal</enum>
+                                    </property>
+                                    <property name="sizeType">
+                                        <enum>Expanding</enum>
+                                    </property>
+                                    <property name="sizeHint">
+                                        <size>
+                                            <width>33</width>
+                                            <height>21</height>
+                                        </size>
+                                    </property>
+                                </spacer>
+                            </hbox>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>nameEdit</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>placeEdit</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>codeEdit</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>addressEdit</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>accountEdit</cstring>
+                            </property>
+                            <property name="inputMask">
+                                <string>99 9999 9999 9999 9999 9999 9999; </string>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>nipEdit</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QComboBox">
+                            <item>
+                                <property name="text">
+                                    <string>NUSP</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>REGON</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>PESEL</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>Dowód osobisty</string>
+                                </property>
+                            </item>
+                            <item>
+                                <property name="text">
+                                    <string>Paszport</string>
+                                </property>
+                            </item>
+                            <property name="name">
+                                <cstring>secIdType</cstring>
+                            </property>
+                        </widget>
+                        <widget class="QLineEdit">
+                            <property name="name">
+                                <cstring>regonEdit</cstring>
+                            </property>
+                        </widget>
+                    </vbox>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>layout163</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer1</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Expanding</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>120</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>okButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>O&amp;K</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+K</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>cancelButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Can&amp;cel</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+C</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>okButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form2</receiver>
+        <slot>okClick()</slot>
+    </connection>
+    <connection>
+        <sender>cancelButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form2</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>spinCNr</sender>
+        <signal>valueChanged(int)</signal>
+        <receiver>Form2</receiver>
+        <slot>spinChange()</slot>
+    </connection>
+    <connection>
+        <sender>accountEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>addressEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>nipEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>regonEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>codeEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>nameEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>nipEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>placeEdit</sender>
+        <signal>lostFocus()</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+    <connection>
+        <sender>secIdType</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form2</receiver>
+        <slot>saveSettings()</slot>
+    </connection>
+</connections>
+<includes>
+    <include location="local" impldecl="in implementation">user.ui.h</include>
+</includes>
+<slots>
+    <slot>okClick()</slot>
+    <slot>saveSettings()</slot>
+    <slot>spinChange()</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+</functions>
+<pixmapinproject/>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>

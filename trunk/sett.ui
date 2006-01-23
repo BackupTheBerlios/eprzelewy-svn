@@ -1,0 +1,1793 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>Form7</class>
+<widget class="QDialog">
+    <property name="name">
+        <cstring>Form7</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>522</width>
+            <height>605</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Ustawienia</string>
+    </property>
+    <grid>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <widget class="QLayoutWidget" row="1" column="0">
+            <property name="name">
+                <cstring>layout89</cstring>
+            </property>
+            <hbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>defButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Do&amp;myślne</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+M</string>
+                    </property>
+                </widget>
+                <spacer>
+                    <property name="name">
+                        <cstring>spacer3</cstring>
+                    </property>
+                    <property name="orientation">
+                        <enum>Horizontal</enum>
+                    </property>
+                    <property name="sizeType">
+                        <enum>Minimum</enum>
+                    </property>
+                    <property name="sizeHint">
+                        <size>
+                            <width>38</width>
+                            <height>20</height>
+                        </size>
+                    </property>
+                </spacer>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>preButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>P&amp;odgląd</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+O</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>okButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>O&amp;K</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+K</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>zastButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Za&amp;stosuj</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+S</string>
+                    </property>
+                </widget>
+                <widget class="QPushButton">
+                    <property name="name">
+                        <cstring>closeButton</cstring>
+                    </property>
+                    <property name="text">
+                        <string>Can&amp;cel</string>
+                    </property>
+                    <property name="accel">
+                        <string>Alt+C</string>
+                    </property>
+                </widget>
+            </hbox>
+        </widget>
+        <widget class="QTabWidget" row="0" column="0">
+            <property name="name">
+                <cstring>tabWidget2</cstring>
+            </property>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Ogólne</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QLayoutWidget" row="0" column="0">
+                        <property name="name">
+                            <cstring>layout34</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel">
+                                <property name="name">
+                                    <cstring>textLabel1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Czcionka</string>
+                                </property>
+                            </widget>
+                            <widget class="QLineEdit">
+                                <property name="name">
+                                    <cstring>fontEdit</cstring>
+                                </property>
+                                <property name="enabled">
+                                    <bool>false</bool>
+                                </property>
+                                <property name="readOnly">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                            <widget class="QPushButton">
+                                <property name="name">
+                                    <cstring>fontSel</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Wybierz</string>
+                                </property>
+                            </widget>
+                        </hbox>
+                    </widget>
+                    <widget class="QLayoutWidget" row="1" column="0">
+                        <property name="name">
+                            <cstring>layout35</cstring>
+                        </property>
+                        <vbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QCheckBox">
+                                <property name="name">
+                                    <cstring>checkBox1</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Używaj druku wbudowanego dla przelewów i wpłat</string>
+                                </property>
+                                <property name="checked">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox">
+                                <property name="name">
+                                    <cstring>checkBox2</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Używaj druku wbudowanego dla przelewów do ZUS</string>
+                                </property>
+                                <property name="checked">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                            <widget class="QCheckBox">
+                                <property name="name">
+                                    <cstring>checkBox3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Używaj druku wbudowanego dla przelewów do US</string>
+                                </property>
+                                <property name="checked">
+                                    <bool>true</bool>
+                                </property>
+                            </widget>
+                        </vbox>
+                    </widget>
+                    <spacer row="3" column="0">
+                        <property name="name">
+                            <cstring>spacer4</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>41</width>
+                                <height>250</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QLayoutWidget" row="2" column="0">
+                        <property name="name">
+                            <cstring>layout20</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLabel">
+                                <property name="name">
+                                    <cstring>textLabel1_3</cstring>
+                                </property>
+                                <property name="text">
+                                    <string>Ilość odstępów pomiędzy cyframi w numerach kont:</string>
+                                </property>
+                            </widget>
+                            <widget class="QSpinBox">
+                                <property name="name">
+                                    <cstring>spacesSpin</cstring>
+                                </property>
+                                <property name="maxValue">
+                                    <number>5</number>
+                                </property>
+                                <property name="value">
+                                    <number>2</number>
+                                </property>
+                            </widget>
+                        </hbox>
+                    </widget>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>tab</cstring>
+                </property>
+                <attribute name="title">
+                    <string>Przelew</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <widget class="QLayoutWidget" row="1" column="0">
+                        <property name="name">
+                            <cstring>layout56</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout54</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel11</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Druków na kartce:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel12</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Układ:</string>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout55</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QComboBox">
+                                        <item>
+                                            <property name="text">
+                                                <string>1</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>2</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>3</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>4</string>
+                                            </property>
+                                        </item>
+                                        <property name="name">
+                                            <cstring>pDruki</cstring>
+                                        </property>
+                                        <property name="currentItem">
+                                            <number>3</number>
+                                        </property>
+                                    </widget>
+                                    <widget class="QComboBox">
+                                        <item>
+                                            <property name="text">
+                                                <string>poziomy</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>pionowy</string>
+                                            </property>
+                                        </item>
+                                        <property name="name">
+                                            <cstring>pUklad</cstring>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                        </hbox>
+                    </widget>
+                    <widget class="QLayoutWidget" row="0" column="0">
+                        <property name="name">
+                            <cstring>layout24</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout22</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Odbiorca1:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Odbiorca2:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel6</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Nr rachunku:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel1_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Wplata [X]</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel1_2_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Przelew [X]</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel4</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Waluta:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel5</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Kwota:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel6_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Konto/słownie:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel7</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Zleceniodawca1:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel8</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Zleceniodawca2:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel9</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Tytuł1:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel10</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Tytuł2:</string>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout23</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p1</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-545, 40;-1000, 40;-505, 390;-1000, 390</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-505, 70;-1000, 70;-505, 420;-1000, 420</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p4</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-505, 105;-1000, 105;-505, 460;-1000, 460</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p11</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-420, 135;-875, 135;-380, 490;-875, 490</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p12</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-300, 135;-855, 135;-360, 490;-855, 490</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-305, 135;-800, 135;-335, 490;-800, 490</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p5</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-250, 135;-730, 135;-245, 490;-740, 490</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p6</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-505, 170;-1000, 170;-505, 520;-1000, 520</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p7</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-505, 200;-1000, 200;-505, 550;-1000, 550</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p8</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-505, 230;-1000, 230;-505, 580;-1000, 580</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p9</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>-505, 260;-1000, 260;-505, 610;-1000, 610</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>p10</cstring>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                        </hbox>
+                    </widget>
+                    <spacer row="2" column="0">
+                        <property name="name">
+                            <cstring>spacer23</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>21</width>
+                                <height>31</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>ZUS</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <spacer row="1" column="0">
+                        <property name="name">
+                            <cstring>spacer24</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>20</width>
+                                <height>16</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QLayoutWidget" row="0" column="0">
+                        <property name="name">
+                            <cstring>layout96</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout95</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout91</cstring>
+                                        </property>
+                                        <vbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel2_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Konto:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel1_2_3</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Wplata [X]</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel1_2_2_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Przelew [X]</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel3_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Kwota:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel5_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Konto/slownie:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel5_2_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Nazwa1:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel6_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Nazwa2:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel7_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>NIP</string>
+                                                </property>
+                                            </widget>
+                                        </vbox>
+                                    </widget>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout61</cstring>
+                                        </property>
+                                        <vbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel8_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Typ drugiego id:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel9_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Drugi id:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel10_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Typ wpłaty:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel10_2_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Nr deklaracji:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel10_2_3</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Deklaracja:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel10_2_3_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Nr dec/umowy/tyt.:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel11_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Druków na kartce:</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLabel">
+                                                <property name="name">
+                                                    <cstring>textLabel12_2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>Układ:</string>
+                                                </property>
+                                            </widget>
+                                        </vbox>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout94</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout90</cstring>
+                                        </property>
+                                        <vbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z1</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>110,250;130,695;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z13</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>285,263;265,730;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z14</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>285,263;285,730;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z2</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>390,265;390,730;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z3</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>130,295;130,765;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z4</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>130,325;130,800;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z5</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>130,363;130,835;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z6</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>130,398;130,865;</string>
+                                                </property>
+                                            </widget>
+                                        </vbox>
+                                    </widget>
+                                    <widget class="QLayoutWidget">
+                                        <property name="name">
+                                            <cstring>layout70</cstring>
+                                        </property>
+                                        <vbox>
+                                            <property name="name">
+                                                <cstring>unnamed</cstring>
+                                            </property>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z7</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>322,398;322,865;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z8</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>430,398;430,865;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z9</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>130,432;130,895;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z10</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>170,432;170,895;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z11</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>230,432;230,895;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QLineEdit">
+                                                <property name="name">
+                                                    <cstring>z12</cstring>
+                                                </property>
+                                                <property name="text">
+                                                    <string>340,432;340,895;</string>
+                                                </property>
+                                            </widget>
+                                            <widget class="QComboBox">
+                                                <item>
+                                                    <property name="text">
+                                                        <string>1</string>
+                                                    </property>
+                                                </item>
+                                                <item>
+                                                    <property name="text">
+                                                        <string>2</string>
+                                                    </property>
+                                                </item>
+                                                <item>
+                                                    <property name="text">
+                                                        <string>3</string>
+                                                    </property>
+                                                </item>
+                                                <item>
+                                                    <property name="text">
+                                                        <string>4</string>
+                                                    </property>
+                                                </item>
+                                                <property name="name">
+                                                    <cstring>zDruki</cstring>
+                                                </property>
+                                                <property name="currentItem">
+                                                    <number>1</number>
+                                                </property>
+                                            </widget>
+                                            <widget class="QComboBox">
+                                                <item>
+                                                    <property name="text">
+                                                        <string>poziomy</string>
+                                                    </property>
+                                                </item>
+                                                <item>
+                                                    <property name="text">
+                                                        <string>pionowy</string>
+                                                    </property>
+                                                </item>
+                                                <property name="name">
+                                                    <cstring>zUklad</cstring>
+                                                </property>
+                                                <property name="currentItem">
+                                                    <number>1</number>
+                                                </property>
+                                            </widget>
+                                        </vbox>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                        </hbox>
+                    </widget>
+                </grid>
+            </widget>
+            <widget class="QWidget">
+                <property name="name">
+                    <cstring>TabPage</cstring>
+                </property>
+                <attribute name="title">
+                    <string>US</string>
+                </attribute>
+                <grid>
+                    <property name="name">
+                        <cstring>unnamed</cstring>
+                    </property>
+                    <spacer row="1" column="0">
+                        <property name="name">
+                            <cstring>spacer27</cstring>
+                        </property>
+                        <property name="orientation">
+                            <enum>Vertical</enum>
+                        </property>
+                        <property name="sizeType">
+                            <enum>Expanding</enum>
+                        </property>
+                        <property name="sizeHint">
+                            <size>
+                                <width>31</width>
+                                <height>16</height>
+                            </size>
+                        </property>
+                    </spacer>
+                    <widget class="QLayoutWidget" row="0" column="0">
+                        <property name="name">
+                            <cstring>layout88</cstring>
+                        </property>
+                        <hbox>
+                            <property name="name">
+                                <cstring>unnamed</cstring>
+                            </property>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout86</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel2_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Nazwa1:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel3_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Nazwa2:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel6_4</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Nr rachunku:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel1_2_3_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Wplata [X]</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel1_2_2_2_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Przelew [X]</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel5_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Kwota:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel6_3_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Konto/słownie:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel7_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Zleceniodawca1:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel8_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Zleceniodawca2:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel9_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>NIP:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel10_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>ID:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel10_3_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Okres:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel10_3_2_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Symbol:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel10_3_2_3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Id zobowiązania:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel11_2_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Druków na kartce:</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLabel">
+                                        <property name="name">
+                                            <cstring>textLabel12_2_2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>Układ:</string>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                            <widget class="QLayoutWidget">
+                                <property name="name">
+                                    <cstring>layout87</cstring>
+                                </property>
+                                <vbox>
+                                    <property name="name">
+                                        <cstring>unnamed</cstring>
+                                    </property>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u1</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,135;140,660;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u2</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,170;140,700;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u3</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>135,200;140,730;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u13</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>268,240;268,768;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u14</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>288,240;288,768;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u4</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>400,240;400,763;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u5</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,270;140,800;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u6</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,310;140,835;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u7</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,340;140,870;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u8</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,380;140,905;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u9</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>392,380;392,905;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u10</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>468,380;468,905;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u11</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>140,410;140,940;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QLineEdit">
+                                        <property name="name">
+                                            <cstring>u12</cstring>
+                                        </property>
+                                        <property name="text">
+                                            <string>260,410;260,940;</string>
+                                        </property>
+                                    </widget>
+                                    <widget class="QComboBox">
+                                        <item>
+                                            <property name="text">
+                                                <string>1</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>2</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>3</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>4</string>
+                                            </property>
+                                        </item>
+                                        <property name="name">
+                                            <cstring>uDruki</cstring>
+                                        </property>
+                                        <property name="currentItem">
+                                            <number>1</number>
+                                        </property>
+                                    </widget>
+                                    <widget class="QComboBox">
+                                        <item>
+                                            <property name="text">
+                                                <string>poziomy</string>
+                                            </property>
+                                        </item>
+                                        <item>
+                                            <property name="text">
+                                                <string>pionowy</string>
+                                            </property>
+                                        </item>
+                                        <property name="name">
+                                            <cstring>uUklad</cstring>
+                                        </property>
+                                        <property name="currentItem">
+                                            <number>1</number>
+                                        </property>
+                                    </widget>
+                                </vbox>
+                            </widget>
+                        </hbox>
+                    </widget>
+                </grid>
+            </widget>
+        </widget>
+    </grid>
+</widget>
+<connections>
+    <connection>
+        <sender>zastButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>apply()</slot>
+    </connection>
+    <connection>
+        <sender>closeButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>close()</slot>
+    </connection>
+    <connection>
+        <sender>okButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>okButtonClick()</slot>
+    </connection>
+    <connection>
+        <sender>tabWidget2</sender>
+        <signal>currentChanged(QWidget*)</signal>
+        <receiver>Form7</receiver>
+        <slot>tabChanged(QWidget*)</slot>
+    </connection>
+    <connection>
+        <sender>uUklad</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>uUklad</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>uDruki</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>uDruki</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u12</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u11</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u10</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u9</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u8</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u7</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u6</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u5</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u4</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u3</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u2</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u1</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z7</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z6</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z5</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z4</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z3</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z2</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z1</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>zUklad</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>zUklad</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>zDruki</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>zDruki</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z12</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z11</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z9</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z8</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p10</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p9</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p8</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p7</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p6</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p5</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p3</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p4</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p2</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p1</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>pUklad</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>pUklad</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>pDruki</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>pDruki</sender>
+        <signal>activated(int)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>checkBox3</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>checkBox2</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>checkBox1</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>fontSel</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>getFontDlg()</slot>
+    </connection>
+    <connection>
+        <sender>defButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>abcDefaultClick()</slot>
+    </connection>
+    <connection>
+        <sender>preButton</sender>
+        <signal>clicked()</signal>
+        <receiver>Form7</receiver>
+        <slot>abcPreviewClick()</slot>
+    </connection>
+    <connection>
+        <sender>p11</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>p12</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u13</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>u14</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z13</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>z14</sender>
+        <signal>textChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+    <connection>
+        <sender>spacesSpin</sender>
+        <signal>valueChanged(const QString&amp;)</signal>
+        <receiver>Form7</receiver>
+        <slot>cosChanged()</slot>
+    </connection>
+</connections>
+<tabstops>
+    <tabstop>preButton</tabstop>
+    <tabstop>closeButton</tabstop>
+    <tabstop>zastButton</tabstop>
+    <tabstop>okButton</tabstop>
+    <tabstop>tabWidget2</tabstop>
+    <tabstop>defButton</tabstop>
+    <tabstop>fontEdit</tabstop>
+    <tabstop>fontSel</tabstop>
+    <tabstop>checkBox1</tabstop>
+    <tabstop>checkBox2</tabstop>
+    <tabstop>checkBox3</tabstop>
+    <tabstop>pDruki</tabstop>
+    <tabstop>pUklad</tabstop>
+    <tabstop>p1</tabstop>
+    <tabstop>p2</tabstop>
+    <tabstop>p4</tabstop>
+    <tabstop>p11</tabstop>
+    <tabstop>p12</tabstop>
+    <tabstop>p3</tabstop>
+    <tabstop>p5</tabstop>
+    <tabstop>p6</tabstop>
+    <tabstop>p7</tabstop>
+    <tabstop>p8</tabstop>
+    <tabstop>p9</tabstop>
+    <tabstop>p10</tabstop>
+    <tabstop>z1</tabstop>
+    <tabstop>z13</tabstop>
+    <tabstop>z14</tabstop>
+    <tabstop>z2</tabstop>
+    <tabstop>z3</tabstop>
+    <tabstop>z4</tabstop>
+    <tabstop>z5</tabstop>
+    <tabstop>z6</tabstop>
+    <tabstop>z7</tabstop>
+    <tabstop>z8</tabstop>
+    <tabstop>z9</tabstop>
+    <tabstop>z10</tabstop>
+    <tabstop>z11</tabstop>
+    <tabstop>z12</tabstop>
+    <tabstop>zDruki</tabstop>
+    <tabstop>zUklad</tabstop>
+    <tabstop>u1</tabstop>
+    <tabstop>u2</tabstop>
+    <tabstop>u3</tabstop>
+    <tabstop>u13</tabstop>
+    <tabstop>u14</tabstop>
+    <tabstop>u4</tabstop>
+    <tabstop>u5</tabstop>
+    <tabstop>u6</tabstop>
+    <tabstop>u7</tabstop>
+    <tabstop>u8</tabstop>
+    <tabstop>u9</tabstop>
+    <tabstop>u10</tabstop>
+    <tabstop>u11</tabstop>
+    <tabstop>u12</tabstop>
+    <tabstop>uDruki</tabstop>
+    <tabstop>uUklad</tabstop>
+</tabstops>
+<includes>
+    <include location="local" impldecl="in implementation">sett.ui.h</include>
+</includes>
+<variables>
+    <variable>QStringList pOdb1; QStringList pOdb2; QStringList pWal; QStringList pNrrach; QStringList pKwota; QStringList pKsw; QStringList pZlec1; QStringList pZlec2; QStringList pTyt1; QStringList pTyt2; QStringList pWx; QStringList pPx; int pages; bool poziom; bool own; QFont font;</variable>
+    <variable>QStringList z_dek; QStringList z_id; QStringList z_konto; QStringList z_ksw; QStringList z_kwota; QStringList z_nazwa1; QStringList z_nazwa2; QStringList z_nip; QStringList z_nrdec; QStringList z_nrdek; QStringList z_typid; QStringList z_typwp; QStringList zWx; QStringList zPx;</variable>
+    <variable>QStringList u_id; QStringList u_idzob; QStringList u_ksw; QStringList u_kwota; QStringList u_nazwa1; QStringList u_nazwa2; QStringList u_nip; QStringList u_nrrach; QStringList u_okres; QStringList u_symbol; QStringList u_zlec1; QStringList u_zlec2; QStringList uWx; QStringList uPx;</variable>
+    <variable access="private">int rozSp;</variable>
+</variables>
+<slots>
+    <slot>cosChanged()</slot>
+    <slot>apply()</slot>
+    <slot>okButtonClick()</slot>
+    <slot>saveSettings()</slot>
+    <slot>readSettings()</slot>
+    <slot>getFontDlg()</slot>
+    <slot>pDefaultClick()</slot>
+    <slot>pDefaultClick2()</slot>
+    <slot>zDefaultClick()</slot>
+    <slot>uDefaultClick()</slot>
+    <slot>abcDefaultClick()</slot>
+    <slot>readSettingsPrzelew()</slot>
+    <slot>readSettingsZ()</slot>
+    <slot>readSettingsU()</slot>
+    <slot>pPriviewClick()</slot>
+    <slot>zPriviewClick()</slot>
+    <slot>uPriviewClick()</slot>
+    <slot>abcPreviewClick()</slot>
+    <slot>tabChanged( QWidget * aaa )</slot>
+</slots>
+<functions>
+    <function access="private" specifier="non virtual">init()</function>
+    <function returnType="int">getXSett( QString in )</function>
+    <function returnType="int">getYSett( QString in )</function>
+    <function returnType="QString">rozstrzel( QString in )</function>
+    <function returnType="QPixmap">getPrzelewP()</function>
+    <function returnType="QPixmap">getPrzelewZ()</function>
+    <function returnType="QPixmap">getPrzelewU()</function>
+</functions>
+<layoutdefaults spacing="6" margin="11"/>
+</UI>
